@@ -595,6 +595,7 @@ Together forever, this I know.
 	<script>
 		// Wait for user interaction (scroll in this case)
 		const audio = document.getElementById("background-music");
+		audio.volume = 0.6; // Set volume to 60%
 		let isPlaying = false; // Prevent multiple triggers
 	
 		const playMusicOnScroll = () => {
